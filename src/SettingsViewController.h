@@ -35,10 +35,12 @@
 
 @property (weak, nonatomic) IBOutlet UISwitch *autoLatencySwitch;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *ticksPerBufferSegmentedControl;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *sampleRateSegmentedControl;
 @property (weak, nonatomic) IBOutlet UILabel *latencyLabel;
 
 - (IBAction)autoLatencyChanged:(id)sender;
 - (IBAction)ticksPerBufferChanged:(id)sender;
+- (IBAction)sampleRateChanged:(id)sender;
 
 #pragma mark Default Folders
 

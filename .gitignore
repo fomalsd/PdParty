@@ -23,3 +23,4 @@ example/obj
 # patches
 /res/patches/tests/droidparty/loadsave/savedir/
 
+/.idea/

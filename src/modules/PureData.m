@@ -70,6 +70,7 @@
 		// of 1 too early results in no audio and feedback until it is changed,
 		// this fixes that
 		self.ticksPerBuffer = (int)[defaults integerForKey:@"ticksPerBuffer"];
+		self.sampleRate = (int)[defaults integerForKey:@"sampleRate"];
 
 		// setup display link for faster message polling
 		updateLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(updateMessages:)];
